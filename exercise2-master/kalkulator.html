@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="kalkulator.css" />
+    <script src="kalkulator.js"></script>
+</head>
+
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <form>
+        Angka 1 :<input attribute type="number" id="angka1" /></br>
+        Angka 2 :<input attribute type="number" id="angka2" /></br>
+        Operator
+        <select id="operator">
+            <option value="+">Tambah(+)</option>
+            <option value="-">Kurang(-)</option>
+            <option value="*">Kali(x)</option>
+            <option value="/">Bagi(/)</option>
+        </select></br>
+        <input attribute type="button" id="Hitung" value="Hitung" onclick="hitung()" /></br>
+        Hasil : <input attribute type="text" id="hasil" disabled/>
+    </form>
+</body>
+
+</html>

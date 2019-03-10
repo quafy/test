@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/nav.png" width="30" height="30" alt="">
+            </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active disabled" href="about.html">About Me</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container About Me -->
+    <div id="about" class="container-fluid">
+        <h1>About Me</h1>
+        <a href="img/IMG_20190218_212226.jpg" data-fancybox>
+            <img src="img/IMG_20190218_212226.jpg" class="img-fluid img-thumbnail" alt="" />
+        </a>
+        <p>Just a student and junior programmer, who's live in Jakarta (Indonesia)</p>
+    </div>
+
+    <!-- Container Skill -->
+
+    <div id="skill" class="container-fluid">
+        <h1>My Skill</h1>
+        <p>HTML :</p>
+        <img src="img/70.jpg" class="img-fluid" alt="Responsive image" />
+        <p>CSS :</p>
+        <img src="img/60.jpg" class="img-fluid" alt="Responsive image" />
+        <p>JavaScript :</p>
+        <img src="img/45.jpg" class="img-fluid" alt="Responsive image" />
+        <p>C++ :</p>
+        <img src="img/40.jpg" class="img-fluid" alt="Responsive image" />
+
+    </div>
+
+    <!-- Container Project -->
+    <div id="project" class="container-fluid">
+        <h1>My Project</h1>
+        <a href="exercise2-master/kalkulator.html">Simple Calculator JS</a></br>
+        <a href="img/kalkulator.JPG" data-fancybox data-caption="Simple Calculator JS">
+            <img src="img/kalkulator.JPG" class="img-fluid img-thumbnail" alt="" />
+        </a></br>
+        <a href="function/swapi.html">Data Filtering JS</a></br>
+        <a href="img/swapi.JPG" data-fancybox data-caption="Data Filtering JS">
+            <img src="img/swapi.JPG" class="img-fluid img-thumbnail" alt="" />
+        </a></br>
+        <p>Restaurant Menu</p>
+        <a href="img/resto.JPG" data-fancybox data-caption="Data Filtering JS">
+            <img src="img/resto.JPG" class="img-fluid img-thumbnail" alt="" />
+        </a></br>
+    </div>
+
+
+</body>
+<footer class="footer">Copyright Herdiansyah 2019, with Bootstrap and Jquery Framework</footer>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+<script src="script.js"></script>
+<script src="fancybox-master/dist/jquery.fancybox.min.js"> </script>
+
+</html>

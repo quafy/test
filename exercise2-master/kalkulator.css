@@ -1,0 +1,45 @@
+body {
+    background: rgba(56, 56, 129, 0.541);
+    color: whitesmoke;
+}
+h1{  
+    font: 30px verdana;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#angka1{
+    color: white;
+    background: rgb(57, 57, 145);
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#angka2{
+    color: white;
+    background: rgb(57, 57, 145);
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#operator{
+    color: white;
+    background: rgb(57, 57, 145);
+    border: 1px solid black;
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+#hasil{
+    color: white;
+    background: rgb(57, 57, 145);
+    border: 1px solid black;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#Hitung{
+    color: white;
+    background: rgb(57, 57, 145);
+    border: 1px solid black;
+    margin-left: 100px;
+    
+}

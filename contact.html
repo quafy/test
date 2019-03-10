@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/nav.png" width="30" height="30" alt="">
+            </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About Me</a>
+                <a class="nav-item nav-link active disabled" href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row justify-content-md-center">
+        <form id="contact" action="https://formspree.io/slherdi@gmail.com" method="POST">
+            <label for="formGroupExampleInput">Name :</label>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Email :</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message :</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+</body>
+<footer class="footer">Copyright Herdiansyah 2019, with Bootstrap and Jquery Framework</footer>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+<script src="script.js"></script>
+
+</html>
